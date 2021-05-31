@@ -1,16 +1,13 @@
-# daily_forecast
+# DailyForecast (Flutter App) for Android and IOS
 
-A new Flutter application.
+<p><strong>Screenshots(IOS)</strong></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/ios_one.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/ios_two.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/ios_three.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/ios_four.jpeg"/></p>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p><strong>Screenshots(Android)</strong></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/android_one.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/android_two.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/android_three.jpeg"/></p>
+  <p align="center"><img src="https://github.com/mphocharlienkuna/Flutter-Daily-Forecast/blob/Development/images/android_four.jpeg"/></p>
