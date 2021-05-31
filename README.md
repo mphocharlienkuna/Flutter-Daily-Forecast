@@ -1,7 +1,8 @@
 # DailyForecast (Flutter App) for Android and IOS
 
 <strong>Note</strong>
-  - <p>Please clone Development branch (Use Android Studio)</p>
+  - <p>Clone Development branch (Use Android Studio)</p>
+  - <p>Open yaml file and click 'Pub get' then 'Pub upgrade'</p>
   - <p>Daily Forecast provides realtime weather conditions based on current location (Please test on Android and IOS)</p>
   
 <p><strong>Screenshots(IOS)</strong></p>
