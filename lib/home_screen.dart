@@ -72,7 +72,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: !networkState
-                    ? showNoNetwork(context, Strings.NoInternetConnection, Strings.NoInternetConnectionTryAgain)
+                    ? showNoNetwork(context, Strings.NoInternetConnection,
+                        Strings.NoInternetConnectionTryAgain)
                     : !locationState
                         ? Container(
                             child: Column(
@@ -84,7 +85,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                   child: Center(
                                     child: CircularProgressIndicator(
                                       backgroundColor: Colors.amber[800],
-                                      color: Colors.black,
                                     ),
                                   ),
                                 ),
@@ -107,14 +107,14 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                             child: CircularProgressIndicator(
                                               backgroundColor:
                                                   Colors.amber[800],
-                                              color: Colors.black,
                                             ),
                                           ),
                                         ),
                                       ],
                                     ),
                                   )
-                                : showNoNetwork(context, Strings.errorHeading, Strings.errorMessage)),
+                                : showNoNetwork(context, Strings.errorHeading,
+                                    Strings.errorMessage)),
           ),
         ],
       ),
@@ -211,6 +211,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
         isPermissionGranted = true;
       } else if (await Permission.locationAlways.isGranted) {
         isPermissionGranted = true;
+      } else {
+        Geolocator.openAppSettings();
       }
 
       if (isPermissionGranted) {
@@ -222,6 +224,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           }
         });
       }
+    } else {
+      Geolocator.openAppSettings();
     }
   }
 
